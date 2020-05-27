@@ -9,5 +9,6 @@ echo "Creating new virtual environment..."
 python3 -m virtualenv ./venv
 echo "Installing required packages..."
 ./venv/bin/pip install setuptools wheel twine
+./venv/bin/pip install -r requirements.txt
 
 echo "Done!"
